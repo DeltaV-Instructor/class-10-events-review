@@ -8,18 +8,18 @@ clickableH1.addEventListener('click', function() {
   console.log('H1 was clicked1');
 });
 
-let clickableH2 = document.getElementById('click-h1');
+let clickableH2 = document.getElementById('click-h2');
 clickableH2.addEventListener('click', function() {
   //console.log('H1 was clicked1');
   alert('Welcome to the site!');
 });
 
-let clickableH3 = document.getElementById('click-h1');
+let clickableH3 = document.getElementById('click-h3');
 clickableH3.addEventListener('click', function() {
   document.getElementByTagName('html')[0].style.backgroundColor = '#23F';
 });
 
-let clickableH4 = document.getElementById('click-h1');
+let clickableH4 = document.getElementById('click-h4');
 // 'mouseover' https://developer.mozilla.org/en-US/docs/Web/Events
 clickableH4.addEventListener('click', function() {
   let randomNumber = Math.floor(Math.random() * 256 * 256 * 256);
